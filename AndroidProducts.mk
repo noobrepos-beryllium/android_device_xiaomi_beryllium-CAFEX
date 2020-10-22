@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cafex_beryllium.mk
+    $(LOCAL_DIR)/octavi_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    cafex_beryllium-user \
-    cafex_beryllium-userdebug \
-    cafex_beryllium-eng
+    octavi_beryllium-user \
+    octavi_beryllium-userdebug \
+    octavi_beryllium-eng

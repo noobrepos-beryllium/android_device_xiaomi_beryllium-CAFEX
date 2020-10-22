@@ -6,14 +6,14 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common CAFEX stuff.
-$(call inherit-product, vendor/extended/common.mk)
+# Inherit some common OctaviOS stuff.
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/mainline.mk)
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cafex_beryllium
+PRODUCT_NAME := octavi_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCOPHONE F1
